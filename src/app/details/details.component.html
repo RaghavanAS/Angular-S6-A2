@@ -1,0 +1,6 @@
+<div class="form-group">
+  <input type="text" class="form-control" id="fName" [value]="firstName" #fName >
+  <input type="text" class="form-control" id="lName" [value]="lastName" #lName>
+  <button type="button" class="btn btn-primary" (click)="getDetails(fName,lName)">Get Details</button>
+</div>
+<h1>Welcome {{title}}</h1>
